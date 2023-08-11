@@ -115,7 +115,7 @@ main()
 {
   var regr = new LinearRegression();
   var opt = new optim.SGD(regr.parameters());
-  for(int ep = 0; ep < epoch; ++ep)
+  for(var ep = 0; ep < epoch; ++ep)
   {
     (var input, var target) = GetData();
     y = regr(input);
@@ -129,6 +129,8 @@ main()
 
 </table>
 
+For more examples see [B# vs C# vs Python](https://github.com/ColorfulSoft/BSharp/blob/main/.content/1.%20B%23%20vs%20C%23%20vs%20Python.md)
+
 # Compatibility
 
 B# is compatible with given operating systems and .NET implementations:
@@ -139,3 +141,11 @@ B# is compatible with given operating systems and .NET implementations:
 | Apple macOS 12.0 and higer                | Mono 2.0, .NET Core, .NET                               |
 | Linux (Mint, Ubuntu)                      | Mono 2.0, .NET Core, .NET                               |
 | Android 10 and higer                      | Mono 2.0                                                |
+
+# Development technology stack
+
+* Windows 7 x64
+* .NET Framework 4.5.2
+* C# 5
+* SharpDevelop 5.1 (IDE)
+* Jay (Parser generator)
