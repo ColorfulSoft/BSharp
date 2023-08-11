@@ -127,6 +127,8 @@ main()
 }
 ```
 
+</td>
+</tr>
 </table>
 
 For more examples see [B# vs C# vs Python](https://github.com/ColorfulSoft/BSharp/blob/main/.content/1.%20B%23%20vs%20C%23%20vs%20Python.md)
