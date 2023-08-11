@@ -78,7 +78,7 @@ static void Main()
 <td>
 
 ```C#
-using Console from System;
+using * from System;
 using torch from System.AI;
 using nn from System.AI.torch;
 using functional from System.AI.torch.nn as F;
